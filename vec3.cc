@@ -85,6 +85,7 @@ template<class T> class vec3 {
         this->x = other.x;
         this->y = other.y;
         this->z = other.z;
+        return *this;
     }
     
     bool operator==(const vec3<T>& other) {
